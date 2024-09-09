@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="font-raleway">
+<body class="font-ralewa">
 
     <header class="max-w-7xl mx-auto mt-5">
         <!-- navbar section -->
@@ -36,7 +36,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h1 class=" text-4xl font-extrabold">JM-Ticket</h1>
+                        <h1 class="text-2xl lg:text-4xl font-extrabold">JM-Ticket</h1>
                     </div>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -68,49 +68,91 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div>
+        <div class="flex flex-col gap-5 lg:gap-0">
             <div
                 class="flex justify-center bg-[url(//i.ibb.co.com/DLysYmK/banner.png)] h-[550px] bg-no-repeat bg-center bg-cover object-cover rounded-3xl mt-8">
 
                 <div class="text-center mt-16 space-y-8">
-                    <h1 class="text-6xl font-extrabold text-white">End-to-End Travel with</h1>
-                    <h2 class="text-6xl font-extrabold primary-color">Zainul Paribahan</h2>
+                    <h1 class=" text-4xl lg:text-6xl font-extrabold text-white">End-to-End Travel with</h1>
+                    <h2 class="text-4xl lg:text-6xl font-extrabold primary-color">Zainul Paribahan</h2>
                     <p class="text-white">Yes, you can run unit tests and view the results directly within the app. The
-                        <br> integrated testing features allow for a streamlined.</p>
+                        <br> integrated testing features allow for a streamlined.
+                    </p>
                     <!-- banner button -->
                     <button class="btn font-bold bg-[#1DD100]">Buy Tickets</button>
                 </div>
 
             </div>
             <!-- banner end container -->
-             <div class="flex flex-col lg:flex-row gap-5 mt-5 lg:mt-0 lg:-translate-y-20 lg:justify-evenly font-inter">
+            <div class="flex flex-col lg:flex-row lg:-translate-y-20 lg:justify-evenly font-inter">
                 <!-- container 1 -->
-               <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
-                <img src="//i.ibb.co.com/rG78Wk7/people.png">
-                <div>
-                    <h1 class="text-4xl font-bold">500K+</h1>
-                    <p class="opacity-70">Registered users</p>
+                <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
+                    <img src="//i.ibb.co.com/rG78Wk7/people.png">
+                    <div>
+                        <h1 class="text-4xl font-bold">500K+</h1>
+                        <p class="opacity-70">Registered users</p>
+                    </div>
                 </div>
-               </div>
                 <!-- container 2 -->
-               <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
-                <img src="//i.ibb.co.com/9ntWNFm/ticket-cupon.png">
-                <div>
-                    <h1 class="text-4xl font-bold">1.7 lacks</h1>
-                    <p class="opacity-70">Tickets sold</p>
+                <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
+                    <img src="//i.ibb.co.com/9ntWNFm/ticket-cupon.png">
+                    <div>
+                        <h1 class="text-4xl font-bold">1.7 lacks</h1>
+                        <p class="opacity-70">Tickets sold</p>
+                    </div>
                 </div>
-               </div>
                 <!-- container 2 -->
-               <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
-                <img src="//i.ibb.co.com/MsHKsqr/stoppage.png">
-                <div>
-                    <h1 class="text-4xl font-bold">80K+</h1>
-                    <p class="opacity-70">Rental partners</p>
+                <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
+                    <img src="//i.ibb.co.com/MsHKsqr/stoppage.png">
+                    <div>
+                        <h1 class="text-4xl font-bold">80K+</h1>
+                        <p class="opacity-70">Rental partners</p>
+                    </div>
                 </div>
-               </div>
-             </div>
+            </div>
         </div>
     </header>
+
+    <main>
+        <!-- Best Offers section -->
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-center text-3xl lg:text-5xl font-bold font-inter">Best offers for you</h1>
+            <!-- coupon card container -->
+            <div class="flex flex-col gap-5 lg:gap-0 lg:flex-row lg:justify-between  mt-12">
+                <!-- card 1 -->
+                <div class="flex justify-around rounded-3xl items-center bg-[#FFBF0F]">
+                    <div class="font-inter space-y-4 p-5">
+                        <h2 class="text-3xl lg:text-5xl font-extrabold">15% OFF</h2>
+                        <h3 class="text-2xl  lg:text-3xl font-bold">on your next purchase</h3>
+                        <p class="font-bold opacity-70">use by January 2024</p>
+                    </div>
+                    <div>
+                        <img src="//i.ibb.co.com/JdL55tG/cupon-devider.png">
+                    </div>
+                    <div class="space-y-3 p-5">
+                        <h2 class="text-2xl lg:text-3xl font-bold font-raleway ">NEW15</h2>
+                        <p class="opacity-70">Coupon Code</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="flex justify-around rounded-3xl items-center bg-[#F78C9C]">
+                    <div class="font-inter space-y-4 p-5">
+                        <h2 class="text-3xl lg:text-5xl font-extrabold">20% OFF</h2>
+                        <h3 class="text-2xl  lg:text-3xl font-bold">
+                            on your next purchase</h3>
+                        <p class="font-bold opacity-70">use by January 2024</p>
+                    </div>
+                    <div>
+                        <img src="//i.ibb.co.com/JdL55tG/cupon-devider.png">
+                    </div>
+                    <div class="space-y-3 p-5">
+                        <h2 class="text-2xl lg:text-3xl font-bold font-raleway ">Couple 20</h2>
+                        <p class="opacity-70">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <!-- script file here -->
     <script src="app.js"></script>
