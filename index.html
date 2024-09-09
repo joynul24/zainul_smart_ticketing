@@ -12,9 +12,105 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="font-raleway">
 
-    
+    <header class="max-w-7xl mx-auto mt-5">
+        <!-- navbar section -->
+        <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class=" text-4xl font-extrabold">JM-Ticket</h1>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-medium gap-8 opacity-70">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <!-- nav btn -->
+                <div class="navbar-end ">
+                    <button class="btn bg-[#E8FAE5] border-[2px] border-[#1DD100]">
+                        <span class="primary-color">Bus</span>
+                        <svg width="21.500000" height="15.500854" viewBox="0 0 21.5 15.5009" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Vector"
+                                d="M3.33 14.16C3.71 14.54 4.21 14.75 4.75 14.75C5.28 14.75 5.78 14.54 6.16 14.16C6.53 13.79 6.75 13.28 6.75 12.75C6.75 12.22 6.53 11.71 6.16 11.33C5.78 10.96 5.28 10.75 4.75 10.75C4.21 10.75 3.71 10.96 3.33 11.33C2.96 11.71 2.75 12.22 2.75 12.75C2.75 13.28 2.96 13.79 3.33 14.16ZM15.33 14.16C15.71 14.54 16.21 14.75 16.75 14.75C17.28 14.75 17.78 14.54 18.16 14.16C18.53 13.79 18.75 13.28 18.75 12.75C18.75 12.22 18.53 11.71 18.16 11.33C17.78 10.96 17.28 10.75 16.75 10.75C16.21 10.75 15.71 10.96 15.33 11.33C14.96 11.71 14.75 12.22 14.75 12.75C14.75 13.28 14.96 13.79 15.33 14.16ZM2.75 12.75L0.75 12.75L0.75 1.75C0.75 1.48 0.85 1.23 1.04 1.04C1.23 0.85 1.48 0.75 1.75 0.75L15.75 0.75C17.07 0.75 18.34 1.48 19.28 2.8C20.22 4.11 20.75 5.89 20.75 7.75L20.75 12.75L18.75 12.75M14.75 12.75L6.75 12.75M14.75 0.75L16.25 7.75L20.75 7.75M0.75 5.75L15.75 5.75M5.75 0.75L5.75 5.75M10.75 0.75L10.75 5.75"
+                                stroke="#1DD100" stroke-opacity="1.000000" stroke-width="1.500000"
+                                stroke-linejoin="round" stroke-linecap="round" />
+                        </svg>
+
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div>
+            <div
+                class="flex justify-center bg-[url(//i.ibb.co.com/DLysYmK/banner.png)] h-[550px] bg-no-repeat bg-center bg-cover object-cover rounded-3xl mt-8">
+
+                <div class="text-center mt-16 space-y-8">
+                    <h1 class="text-6xl font-extrabold text-white">End-to-End Travel with</h1>
+                    <h2 class="text-6xl font-extrabold primary-color">Zainul Paribahan</h2>
+                    <p class="text-white">Yes, you can run unit tests and view the results directly within the app. The
+                        <br> integrated testing features allow for a streamlined.</p>
+                    <!-- banner button -->
+                    <button class="btn font-bold bg-[#1DD100]">Buy Tickets</button>
+                </div>
+
+            </div>
+            <!-- banner end container -->
+             <div class="flex flex-col lg:flex-row gap-5 mt-5 lg:mt-0 lg:-translate-y-20 lg:justify-evenly font-inter">
+                <!-- container 1 -->
+               <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
+                <img src="//i.ibb.co.com/rG78Wk7/people.png">
+                <div>
+                    <h1 class="text-4xl font-bold">500K+</h1>
+                    <p class="opacity-70">Registered users</p>
+                </div>
+               </div>
+                <!-- container 2 -->
+               <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
+                <img src="//i.ibb.co.com/9ntWNFm/ticket-cupon.png">
+                <div>
+                    <h1 class="text-4xl font-bold">1.7 lacks</h1>
+                    <p class="opacity-70">Tickets sold</p>
+                </div>
+               </div>
+                <!-- container 2 -->
+               <div class="flex py-8 pl-8 pr-12 gap-4 bg-white rounded-2xl border-b-[3px] border-[#1DD100]">
+                <img src="//i.ibb.co.com/MsHKsqr/stoppage.png">
+                <div>
+                    <h1 class="text-4xl font-bold">80K+</h1>
+                    <p class="opacity-70">Rental partners</p>
+                </div>
+               </div>
+             </div>
+        </div>
+    </header>
 
     <!-- script file here -->
     <script src="app.js"></script>
