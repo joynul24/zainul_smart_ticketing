@@ -16,11 +16,6 @@
     background-color: #1DD100;
 }
 
-/* .seat-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-} */
-
 .seat-btns,
 .steerting-while {
     background-color: lightgrey;
