@@ -12,6 +12,38 @@
     color: #1DD100;
 }
 
-.bgPrimary{
+.bgPrimary {
     background-color: #1DD100;
+}
+
+/* .seat-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+} */
+
+.seat-btns,
+.steerting-while {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 40px 17px 40px;
+    ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.seat-btn-category {
+    background-color: gray;
+    color: #fff;
+    font-weight: 600;
+}
+
+.setInnerText-div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: dotted;
+    padding: 10px;
 }
