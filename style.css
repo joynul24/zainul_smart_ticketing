@@ -37,8 +37,6 @@
 .setInnerText-div {
     display: flex;
     justify-content: space-between;
-    border-top: 2px;
-    border-bottom: 2px;
-    border-style: dotted;
     padding: 10px;
+    opacity: 70%;
 }
