@@ -31,7 +31,7 @@ for (const btn of allBtns) {
             return;
         };
         setInnerText('seat-count', seatCoutnUpdate);
-        // set tha seat price div
+        // set the seat price div
 
     });
 };
