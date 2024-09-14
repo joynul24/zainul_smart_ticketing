@@ -52,7 +52,7 @@ for (const btn of allBtns) {
 
         // total price update
         const price = 550;
-        updateTotalCost(price)
+        updateTotalCost(price);
 
     });
 };
@@ -69,9 +69,9 @@ function setConvertValue(id) {
     const element = document.getElementById(id).innerText;
     const convertValue = parseInt(element);
     return convertValue;
-}
+};
 
 function setInnerText(id, value) {
     const element = document.getElementById(id).innerText = value;
     return element;
-}
+};
