@@ -50,7 +50,18 @@ for (const btn of allBtns) {
         div.appendChild(p3);
         seatContainer.appendChild(div);
 
+        // total price update
+        const price = 550;
+        updateTotalCost(price)
+
     });
+};
+
+function updateTotalCost(price){
+    const totalPrice = document.getElementById('total-price').innerText;
+    const convertTotalPrice = parseInt(totalPrice);
+    const sum = convertTotalPrice + price;
+    document.getElementById('total-price').innerText = sum;
 };
 
 
