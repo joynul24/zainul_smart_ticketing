@@ -322,7 +322,8 @@
                     <div class="flex justify-around p-2 bg-white mt-4 rounded-xl">
                         <input id="input-coupon" class="text-xl font-semibold outline-none" type="text"
                             placeholder="Have any copupon?">
-                        <button onclick="updateGrandTotal('apply-btn')" id="apply-btn" class="bgPrimary py-3 px-4 rounded-lg text-xl font-bold text-white"
+                        <button onclick="updateGrandTotal('apply-btn')" id="apply-btn"
+                            class="bgPrimary py-3 px-4 rounded-lg text-xl font-bold text-white"
                             type="submit">Apply</button>
                     </div>
                     <!-- grand total -->
@@ -340,7 +341,7 @@
                     </label>
                     <!-- number -->
                     <label class="text-xl font-bold">Phone Number*
-                        <input id="input-number" type="number" placeholder="Enter your phone number"
+                        <input id="number-input" type="number" placeholder="Enter your phone number"
                             class="input input-bordered input-lg w-full mt-4" />
                     </label>
                     <!-- email -->
@@ -348,7 +349,8 @@
                         <input id="input-email" type="email" placeholder="Enter your email id"
                             class="input input-bordered input-lg w-full mt-4" />
                     </label>
-                    <button id="next" type="submit"
+                    <!-- next btn -->
+                    <button onclick="my_modal_1.showModal()" id="next" type="submit"
                         class="bgPrimary px-7 py-5 text-xl font-bold text-white rounded-xl">Next</button>
                     <div class="flex justify-between underline text-xl font-semibold opacity-70">
                         <span>Terms and Conditions</span>
@@ -357,6 +359,25 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal section -->
+
+        <dialog id="my_modal_1" class="modal px-20 py-14">
+            <div class="modal-box text-center  font-raleway">
+                <div class="flex justify-center">
+                    <img class="w-28" src="//i.ibb.co.com/1fwg0DD/success.png">
+                </div>
+                <h3 class="text-2xl font-bold mt-7 primary-color">SUCCESS</h3>
+                <p class="py-4 font-semibold text-xl">Thank you for Booking Our Bus Seats. <br> We are working hard to find the best service and deals for you.</p>
+                <p class="text-xl opacity-70">Shortly you will find a confirmation in your email.</p>
+                <div class="modal-action flex justify-center">
+                    <form method="dialog">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn text-white px-20 text-xl font-semibold bg-[#1DD100]">Continue</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
 
         <!-- footer section -->
         <footer class="bg-[#030712] text-white font-raleway py-28 mt-28">
