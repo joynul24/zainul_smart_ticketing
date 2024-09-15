@@ -61,15 +61,6 @@ for (const btn of allBtns) {
 };
 
 
-function submitForm(){
-    const passangerName = document.getElementById('input-name').value;
-    const passngerNumber = document.getElementById('number-input').value;
-    const passangerEmail = document.getElementById('input-email').value;
-    
-    
-}
-
-
 function updateGrandTotal(status) {
     const totalPrice = document.getElementById('total-price').innerText;
     if (status == undefined) {
